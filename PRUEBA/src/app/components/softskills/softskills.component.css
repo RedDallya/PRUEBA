@@ -1,18 +1,12 @@
-.row{
+.row {
     background-color:#556e79 ;
-    padding: 0px;
-
-
 }
 
-.caja-padre{
-    max-width: 100%;
+
+.caja-padre class="row"{
+    width: 100%;
     display: grid; grid-template-columns: auto auto auto;
     background-color: #556e79;
-    padding: 20px;
-    position: relative;
-    left: 0px;
-    top: 0px;
 }
 
 .contenedor{
@@ -47,7 +41,6 @@ h2{
     width: 100%;
     display: flex;
     justify-content: space-between;
-   
 }
 
 .menu{
