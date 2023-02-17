@@ -1,12 +1,14 @@
 .row {
-    background-color:#556e79 ;
+    background-color:#556e79 ; 
 }
 
 
 .caja-padre class="row"{
-    width: 100%;
+    width: 0;
     display: grid; grid-template-columns: auto auto auto;
     background-color: #556e79;
+    
+    
 }
 
 .contenedor{
@@ -52,7 +54,7 @@ h2{
 }
 .menu div{
     position: relative;
-    width: 0;
+    width: 100%;
     height: 8px;
     border-radius: 10px;
     background-color: cyan;
@@ -62,7 +64,7 @@ h2{
 /*animacion */
 #html-mu{
     animation: html-barra 2s forwards;
-    
+   
 }
 
 @keyframes html-barra{
@@ -87,19 +89,16 @@ h2{
 }
     @keyframes css-barra{
         100%{
-            width: 10%;
+            width: 95%;
         }
             
 }
 
-#albondigas-mu{
-    animation: albondigas-barra 2s forwards;
-    
+#gestion{
+    animation: gestion-barra 2s forwards;
 }
-    @keyframes albondigas-barra{
-        100%{
-            width: 40%;
-
-        }
-            
+@keyframes gestion-barra{
+    100%{
+        width: 70%
+    }
 }

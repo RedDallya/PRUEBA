@@ -26,10 +26,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "../PRUEBA/node_modules/bootstrap/dist/css/bootstrap.css"
+              "../FrontEnd/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-              "../PRUEBA/node_modules/bootstrap/dist/js/bootstrap.js"
+              "../FrontEnd/node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
           "configurations": {
@@ -91,7 +91,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "../PRUEBA/node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "../FrontEnd/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [ ]
           }
