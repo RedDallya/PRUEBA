@@ -7,7 +7,7 @@ import { LogoComponent } from './components/logo/logo.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercademiComponent } from './components/acercademi/acercademi.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
-import { EducacionComponent } from './components/educacion/educacion.component';
+import { EducacionComponent } from './components/educacion/EducacionComponent';
 import { SkillsComponent } from './components/skills/skills.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SoftskillsComponent } from './components/softskills/softskills.component';
@@ -20,6 +20,8 @@ import { FormsModule } from '@angular/forms';
 import { interceptorProvider } from './service/interceptor-service';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia/new-experiencia.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia/edit-experiencia.component';
+import { NeweducacionComponent } from './components/educacion/neweducacion.component';
+import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,10 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
     HomeComponent,
     LoginComponent,
     NewExperienciaComponent,
-    EditExperienciaComponent ],
+    EditExperienciaComponent,
+    NeweducacionComponent,
+    EditeducacionComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
