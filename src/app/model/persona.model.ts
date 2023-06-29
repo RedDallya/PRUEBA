@@ -6,11 +6,10 @@ export class persona {
     descripcion: string;
     img: string;
 
-    constructor(nombre: string, apellido: string, profesion: string, descripcion: string, img: string) {
+    constructor(nombre: string, apellido: string, profesion: string,) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.profesion = profesion;
-        this.descripcion = descripcion;
-        this.img = img;
+
     }
 }
