@@ -14,12 +14,12 @@
 
   <div class="form-outline form-white mb-4">
     <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg" 
-    [(ngModel)]="nombreUsuario" required/>
+    [(ngModel)]="nombreUsuario" required [ngModelOptions]="{standalone: true}"/>
     <label class="form-label" for="nombreUsuario">Usuario</label>
   </div>
 
   <div class="form-outline form-white mb-4">
-    <input type="password" id="Password" class="form-control form-control-lg" [(ngModel)]="password" required/>
+    <input type="password" id="Password" class="form-control form-control-lg" [(ngModel)]="password" required [ngModelOptions]="{standalone: true}"/>
     <label class="form-label" for="Password">Contraseña</label>
   </div>
 
